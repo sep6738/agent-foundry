@@ -1,0 +1,7 @@
+{
+  "name": "instruction_following",
+  "description": "The agent must honor project instruction files when responding.",
+  "prompt": "What test command should I run for this project?",
+  "expected": ["pytest", "ruff"],
+  "tool_usage": null
+}

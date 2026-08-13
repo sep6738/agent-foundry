@@ -1,0 +1,7 @@
+{
+  "name": "tool_usage",
+  "description": "The agent should call list_directory when asked to inspect the project.",
+  "prompt": "List the files in the project root.",
+  "expected": ["AGENTS.md", "pyproject.toml"],
+  "tool_usage": "list_directory"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "skill_usage",
+  "description": "The agent should read the code-review skill when asked to review code.",
+  "prompt": "Please do a code review of utils.py",
+  "expected": ["Review"],
+  "tool_usage": "read_skill",
+  "expected_events": ["skill_invoked"]
+}

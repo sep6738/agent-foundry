@@ -1,0 +1,9 @@
+{
+  "name": "memory_recall",
+  "description": "A preference saved in one turn must be recalled in a later turn.",
+  "setup": ["记住我偏好 Python 语言"],
+  "prompt": "Python 语言偏好是什么？",
+  "expected": ["Python"],
+  "tool_usage": null,
+  "expected_events": ["memory_written"]
+}
